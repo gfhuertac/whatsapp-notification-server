@@ -18,8 +18,12 @@ SDK: 2.3.1
 Components: 2.33.2
 
 Example of running serverless hello world!:
-> serverless invoke -f hello
+
+%]serverless invoke -f hello
+
+```
 {
     "statusCode": 200,
     "body": "{\n  \"message\": \"Go Serverless v1.0! Your function executed successfully!\",\n  \"input\": {}\n}"
 }
+```
